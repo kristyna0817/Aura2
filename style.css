@@ -1,0 +1,52 @@
+* {padding:0;margin:0;}
+h1 {color:black;} 
+a {color:rgba(56, 49, 36,1);
+  margin-left:20px;
+  margin-right:20px;
+  font-size:16px;
+  text-decoration:none;
+}
+#navbar {
+  background-color:rgba(56, 49, 36,.25);
+  width:100%;
+  height:40px;
+}
+.duo {
+  padding-top:20px;
+  background:rgba(56, 49, 36,1);
+  width:100%;
+  height:500px;
+}
+.duo img {
+   padding:5%;
+   padding-top:0%;
+   width:300px;
+}
+.foto-izquierda {
+  background-color:rgba(56, 49, 36,1);
+  width:37%;
+  height:200px;
+   float:left;
+  border-style: solid;
+  border-color: black;
+}
+.foto-derecha {
+  background-color:rgba(56, 49, 36,1);
+  width:32.4%;
+  height:200px;
+    float:right;
+  border-style: solid;
+  border-color: black;
+}
+p {
+  column-count: 6;
+  column-gap: 40px;
+  /*column-rule-style: solid;*/
+  column-rule: 1px solid lightblue;
+  text-align: justify;
+  text-indent:10px;
+  line-height:1.5;
+  font-family: 'Akshar', sans-serif;
+font-family: 'My Soul', cursive;
+font-family: 'Roboto Slab', serif;
+}
